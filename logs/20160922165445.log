@@ -1,0 +1,50 @@
+09-22 16:55:00.330 E/AndroidRuntime( 7126): FATAL EXCEPTION: main
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): Process: com.reggie.notifyhelper, PID: 7126
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): java.lang.NumberFormatException: Invalid int: "ffgg"
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at java.lang.Integer.invalidInt(Integer.java:138)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at java.lang.Integer.parse(Integer.java:410)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at java.lang.Integer.parseInt(Integer.java:367)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at java.lang.Integer.parseInt(Integer.java:334)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at com.reggie.notifyhelper.MainActivity.simpleNotify(MainActivity.java:72)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at com.reggie.notifyhelper.MainActivity.onClick(MainActivity.java:52)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.view.View.performClick(View.java:5204)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.view.View$PerformClick.run(View.java:21153)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.os.Handler.handleCallback(Handler.java:739)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.os.Looper.loop(Looper.java:148)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at java.lang.reflect.Method.invoke(Native Method)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+
+09-22 16:55:00.330 E/AndroidRuntime( 7126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+09-22 16:55:00.333 W/ActivityManager(  776):   Force finishing activity com.reggie.notifyhelper/.MainActivity
+
+09-22 16:55:00.338 D/audio_hw_primary(  196): out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=2
+
+09-22 16:55:00.375 D/AudioFlinger(  196): mixer(0xb4100000) throttle end: throttle time(4)
+
+09-22 16:55:00.382 I/OpenGLRenderer(  776): Initialized EGL, version 1.4
+
+09-22 16:55:00.440 I/art     ( 7100): System.exit called, status: 199
+
+09-22 16:55:00.440 I/AndroidRuntime( 7100): VM exiting with result code 199.
+
+09-22 16:55:00.854 W/ActivityManager(  776): Activity pause timeout for ActivityRecord{87295ae u0 com.reggie.notifyhelper/.MainActivity t64 f}
+
