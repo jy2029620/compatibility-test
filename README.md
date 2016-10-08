@@ -1,2 +1,9 @@
-# compatibility-test
-App兼容性测试脚本
+#App兼容性测试脚本  
+##实现以下功能点：  
+1.使用网络爬虫技术，从应用宝官网下载App安装包到本地目录  
+2.自动安装App到待测设备  
+3.执行Monkey测试  
+4.卸载App  
+5.收集测试过程中的出错日志，输出测试报告  
+##开发工具及架包：  
+Jenkins、Maven、Java、jsoup-1.8.3.jar  
